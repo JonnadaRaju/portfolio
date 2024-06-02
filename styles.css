@@ -1,0 +1,88 @@
+body {
+    margin: 0 auto;
+    background-position: center;
+    background-color: rgb(27, 25, 25);
+    background-size: contain;
+}
+.menu {
+    position: sticky;
+    top: 0;
+    background-color:#BE3144;
+    padding: 5px 0px 10px 1110px;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;    
+}
+
+/* Home Page */
+
+.home {
+    background-color: rgb(27, 25, 25);
+    color:white;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    margin-top: 150px;
+    margin-left:120px;
+    font-size: 16px;
+
+}
+.home button {
+    color:red;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #CC6666;
+    padding: 16px;
+    margin-bottom: 15px;
+    width: 30%;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 16px;
+}
+.home a :hover {
+    color: white; 
+    background-color: white; 
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+.home a :hover {
+    color: whitesmoke; 
+    background-color: red; 
+}
+.home_img {
+    margin-top: 100px;
+    height: 65vh;
+    border-radius: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    align-items: center;
+    padding: 20px;
+}
+.about {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    color: white;
+    padding-left: 80px;
+    padding-top: 125px;
+    padding-right:100px;
+}
+.icons {
+    margin-top: 40px;
+    display: flex;
+    padding-left: 70px;
+    gap: 70px;
+}
+.icons img {
+    height:8vh;
+}
