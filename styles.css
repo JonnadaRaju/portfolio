@@ -5,10 +5,10 @@ body {
     background-size: contain;
 }
 .menu {
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color:#BE3144;
-    padding: 5px 0px 10px 1110px;
+    padding: 5px 0px 10px 1149px;
     color: white;
     margin: 0 auto;
     overflow: hidden;
@@ -59,7 +59,7 @@ body {
     background-color: red; 
 }
 .home_img {
-    margin-top: 100px;
+    margin-top: 150px;
     height: 65vh;
     border-radius: 10px;
 }
@@ -70,19 +70,71 @@ body {
     align-items: center;
     padding: 20px;
 }
-.about {
+
+/* ABOUT */
+#about {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     color: white;
-    padding-left: 80px;
-    padding-top: 125px;
-    padding-right:100px;
+    height: 100vh;
+    padding: 150px;
 }
 .icons {
-    margin-top: 40px;
     display: flex;
-    padding-left: 70px;
+    margin-top: 30px;
     gap: 70px;
 }
 .icons img {
     height:8vh;
+}
+
+/* Contact me */
+.contact-form {
+    background-color: #333;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h1 {
+    font-size: 36px;
+    color: #BE3144;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border: 2px solid #BE3144;
+}
+
+.contact-form button {
+    background-color: #BE3144;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #d43d57;
 }
